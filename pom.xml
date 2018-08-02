@@ -31,6 +31,14 @@
         
         
     </dependencies>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <properties>
+                <sonar.hub.url>http://52.15.59.32:9000</sonar.hub.url>
+            </properties>
+        </profile>
+    </profiles>
     
 
     <properties>
